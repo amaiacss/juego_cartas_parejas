@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Juego de parejas, Rey León</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Input que muestra el número de acierto -->
+  <input id="input" type="text" value="0" disabled>
+  <section class="memory-game">
+    <!-- Cada div contiene la imagen a emparejar y otra que la pisa y es la parte de atrás, con javascript voltea y css con efecto -->
+    <div class="memory-card" data-valor="simba">
+      <img class="front-face" src="img/simba.jpg" alt="Simba"/>
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta"/>
+    </div>
+    <div class="memory-card" data-valor="simba">
+      <img class="front-face" src="img/simba.jpg" alt="Simba"/>
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+
+    <div class="memory-card" data-valor="rey_leon">
+      <img class="front-face" src="img/rey_leon.png" alt="rey león" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+    <div class="memory-card" data-valor="rey_leon">
+      <img class="front-face" src="img/rey_leon.png" alt="rey león" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+
+    <div class="memory-card" data-valor="pumba">
+      <img class="front-face" src="img/pumba.jpg" alt="Pumba" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+    <div class="memory-card" data-valor="pumba">
+      <img class="front-face" src="img/pumba.jpg" alt="Pumba" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+
+    <div class="memory-card" data-valor="hiena">
+      <img class="front-face" src="img/hiena.png" alt="Nala" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+    <div class="memory-card" data-valor="hiena">
+      <img class="front-face" src="img/hiena.png" alt="Nala" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+
+    <div class="memory-card" data-valor="mufasa">
+      <img class="front-face" src="img/mufasa.png" alt="Mufasa" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+    <div class="memory-card" data-valor="mufasa">
+      <img class="front-face" src="img/mufasa.png" alt="Mufasa" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+
+    <div class="memory-card" data-valor="timon">
+      <img class="front-face" src="img/timon.png" alt="Skar" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+    <div class="memory-card" data-valor="timon">
+      <img class="front-face" src="img/timon.png" alt="Skar" />
+      <img class="back-face" src="img/js-badge.svg" alt="Voltea la carta" />
+    </div>
+  </section>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
